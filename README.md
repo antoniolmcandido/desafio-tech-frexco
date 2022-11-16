@@ -31,7 +31,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Dois módulos foram instalados para a possibilidade de consultas no formato xlsx e csv, caso não possua, realiza as instalações:
+Dois módulos foram instalados para a possibilidade de consultas no formato xlsx e csv, caso não possua, realize as instalações:
 
 ```
 pip install drf-excel
