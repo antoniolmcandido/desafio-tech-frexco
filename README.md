@@ -60,7 +60,7 @@ http://127.0.0.1:8000/users/?format=csv
 http://127.0.0.1:8000/users/?format=api
 ```
 
-Outro procedimento solicitado, foi a possibilidade de aceitar senhas em branco, gerando senhas aleatórias para a substituição. É possível realizar os testes com os exemplos abaixo:
+Outro procedimento solicitado, foi a possibilidade de aceitar senhas em branco, gerando senhas aleatórias para a substituição. É possível realizar os testes com os exemplos abaixo através do link http://127.0.0.1:8000/users/:
 
 ```
 {
