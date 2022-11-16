@@ -6,3 +6,6 @@ class Users(models.Model):
   login = models.EmailField(max_length=255, unique=True)
   password = models.CharField(max_length=50, blank=True, default='')
   birth = models.DateField()
+
+  def set_password(self, new_password):
+    self.password = new_password
